@@ -1,0 +1,104 @@
+  
+  .description-content {
+    /* Box-model  */
+    padding: 20px;
+  
+    /* Positioning */
+    margin-top: 20px;
+  
+    /* Visual */
+    background-color: rgb(243, 243, 243);
+  }
+  @media only screen and (max-width: 767px) {
+  
+    .description-content {
+      /* Box-model */
+      padding: 0;
+  
+      /* Positioning */
+      margin-top: 0;
+    }
+  }
+  .description-header {
+    /* Positioning */
+    margin-bottom: 33px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+  
+    /* Typography */
+    font-size: 32px;
+    font-weight: bold;
+    color: #2b2b2b;
+  }
+
+  #description-image {
+    /* Positioning */
+    float: left;
+  
+    /* Box-model */
+    width: 700px;
+    height:700px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+  }
+
+  #imageNav-area {
+    width: 100%;
+  
+    /* Box-model */
+    padding: 100px 100px 43px;
+  
+    /* Positioning */
+    margin-top: 32px;
+  
+    /* Visual */
+    background-color: rgb(243, 243, 243);
+  }
+
+  #images {
+    /* Box-model */
+    padding-top: 15px;
+  
+    /* Typography */
+    text-align: center;
+  }
+
+  .imageNav-photo {
+    width: 200px;
+  
+    /* Box-model */
+    height: 200px;
+  }
+
+  .imageNav-comparison {
+    width: 500px;
+  
+    /* Box-model */
+    height:500px;
+  }
+
+  .imageNav-header {
+    /* Positioning */
+    margin-bottom: 15px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+  
+    /* Typography */
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+  }
+
+  .imageNav-header-home {
+    /* Positioning */
+    margin-bottom: 15px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+  
+    /* Typography */
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+  }
+
+  
